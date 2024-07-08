@@ -8,7 +8,7 @@ app.use(express.static(path.join(__dirname, 'client/build')));
 
 // An API endpoint that returns some data
 app.get('/api/greeting', (req, res) => {
-  res.json({ message: 'Hello from the server!' });
+  res.json({ message: 'Hello !' });
 });
 
 // Handles any requests that don't match the ones above
